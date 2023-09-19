@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+    <body>
+        <form action="abc.py" method="post" target="_blank">
+            <fieldset>
+                <legend>Credential</legend>
+            <lable for="uname">Username:</lable><br>
+            <input type="text" id="uname" name="user-name"><br>
+            <lable for="mail">Email</lable><br>
+            <input type="email" id="mail" name="email-id"><br>
+            <lable for="pwd">Password</lable><br>
+            <input type="password" id="pwd" name="password"><br>
+            </fieldset>
+            <!--Radio-->
+            <h3>Radio</h3>
+            <input type="radio" id="css" name="topic" value="css">
+            <lable for="css">css</lable><br>
+            <input type="radio" id="html" name="topic" value="html">
+            <lable for="html">HTML</lable><br>
+            <input type="radio" id="gs" name="topic" value="gs">
+            <lable for="gs">gs</lable><br><br>
+            <!--Checkbox-->
+            <input type="checkbox" id="ty" name="tutor" value="tyangchen" checked>
+            <lable for="ty">tyangchen</lable><br>
+            <input type="checkbox" id="td" name="tutor" value="tashid">
+            <lable for="td">tashid</lable><br>
+            <input type="checkbox" id="rt" name="tutor" value="rinchent">
+            <lable for="rt">rinchent</lable><br>
+            <label for="assignment">Upload file</label>
+            <input type="file" id="assignment" name="assignment 1"><br>
+            <!--Drop Down-->
+            <lable for="dzongkhag">Dzongkhag</lable>
+            <select name="dzongkhag" id="dzongkhag"><br>
+                <option value="sj">S/jongkhar</option>
+                <option value="tg" selected>Tashigang</option>
+                <option value="t">Thimphu</option>
+                <option value="p">Paro</option>
+                <option value="tr">Trongsa</option>
+            </select><br>
+            <lable for="comment">Comment</lable><br>
+            <textarea id="comment" name="fb-comment" cols="20" rows="20">Type your text here</textarea>
+            <input type="submit" value="send form">
+        </form>
+    </body>
+</html>
